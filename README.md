@@ -25,6 +25,6 @@ Use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to install `Ras
 ## Step 5. Start x server on startup
 - Create or edit the `.bash_profile` via `sudo nano ~/.bash_profile`
 - Add this line `[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor` and save
-- Optional: to add a reboot every day use `sudo crontab -e` and add e.g. this line `0 6 * * * /sbin/shutdown -r now`
+- Optional: to add a reboot every day use `sudo crontab -e` and add e.g. this line `0 6 * * * /sbin/shutdown -r now` (restarts at 6 a.m. every day)
 - Reboot with `sudo reboot`
 
