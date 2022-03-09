@@ -5,7 +5,7 @@ Show divera monitor on Raspberry Pi Zero W
 ## Step 1. Setup Raspberry Pi Image
 - Use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to install 'Raspberry Pi Os Lite (Legacy)' on your SD card.
 - Open the advanced settings:
-  - Enable SSH -> set username and password
+  - Enable SSH and set a username and a password
   - Optional: configure WiFi (you could also do it in [Step 2](./README.md/#Step-2.-Set-startup-settings))
 
 ## Step 2. Set startup settings
