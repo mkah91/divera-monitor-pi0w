@@ -1,6 +1,6 @@
-# divera-monitor-pi0wh
+# divera-monitor-pi0w
 
-Show divera monitor on Raspberry Pi Zero WH
+Show divera monitor on Raspberry Pi Zero W
 
 ## Step 1. Setup Raspberry Pi Image
 Use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to install `Raspberry Pi Os Lite (Legacy)` on your SD card.
