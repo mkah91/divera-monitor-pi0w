@@ -7,13 +7,13 @@ Show a [DIVERA](https://www.divera247.com/) monitor on Raspberry Pi Zero W. Due 
 - Open the advanced settings:
   - Set a hostname for you pi 
   - Enable SSH and set a username and a password
-  - Optional: configure WiFi (you could also do it in [Step 2](./README.md/#Step-2.-Set-startup-settings))
+  - Optional, but prefered: configure WiFi (you could also do it in [Step 2](./README.md/#Step-2.-Set-startup-settings))
 - Put the SD card into the pi and connect a display via HDMI.
 
 ## Step 2. Adapt Rasberry Pi Configuration
 - Connect to your pi via ssh with `ssh pi@<your-hostname>.local`
 - Use `sudo raspi-config` and:
-  - Activate `Console Autologin` (System Options, Boot Login)
+  - Activate `Console Autologin` (&#8594; System Options &#8594; Boot Login)
   - Optional: configure WiFi settings
 - Reboot with `sudo reboot`
 
