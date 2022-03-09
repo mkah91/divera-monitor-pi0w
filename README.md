@@ -21,7 +21,7 @@ Show a [DIVERA](https://www.divera247.com/) monitor on Raspberry Pi Zero W. Due 
 - Connect to your pi again via ssh with `ssh pi@<your-hostname>.local`
 - Run `./setup.sh`
 
-## Step 4. Edit Openbox Autostart
+## Step 4. Edit Openbox (Window Manager) Autostart
 - Edit the openbox autostart file via `sudo nano /etc/xdg/openbox/autostart`
   - Insert the content of the `start-divera-monitor.sh` file and save
 - Edit the openbox environment file via `sudo nano /etc/xdg/openbox/environment`
