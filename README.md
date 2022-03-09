@@ -18,7 +18,7 @@ Use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to install 'Ras
 - Connect to your pi again via ssh with `ssh pi@<hostname>.local`
 - Run `./setup.sh`
 
-## Step 4. Edit autostart
+## Step 4. Edit openbox autostart
 - Edit the openbox autostart file via `sudo nano /etc/xdg/openbox/autostart`
   - Insert the content of the `start-divera-monitor.sh` file and save
 - Edit the openbox environment file via `sudo nano /etc/xdg/openbox/environment`
