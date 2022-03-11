@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# needed environment variables: MONITOR_URL
+# Needed environment variables: MONITOR_URL
 
 # Display settings
 xset -dpms # turn off display power management system
